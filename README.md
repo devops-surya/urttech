@@ -1,5 +1,8 @@
 # Static Website with Registration and Email Functionality
 
+![image](https://github.com/user-attachments/assets/0870754f-d4bc-425a-87b4-12cf54f8c8c0)
+
+
 This repository contains a static website built using HTML and PHP. The website allows users to register by submitting their details through a form. Upon successful registration, the following actions occur:
 
 - The admin receives an email with the registration details.
