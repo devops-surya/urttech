@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URT Technologies</title>
+    <!-- Link to a colorful theme stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css">
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom CSS styles */
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif; /* Using Arial font */
+        }
+
+        .jumbotron {
+            background-color: #007bff;
+            color: #ffffff; /* Changing text color to white */
+            padding: 20px;
+            border-radius: 0; /* Removing border-radius */
+            margin-bottom: 0; /* Removing margin bottom */
+        }
+
+        .jumbotron h1 {
+            font-size: 60px; /* Increasing font size for heading */
+            text-transform: uppercase; /* Capitalizing heading text */
+            margin-bottom: 10px; /* Adjusting margin bottom */
+            color: #fff; /* Making text white */
+        }
+
+        .course-content {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .why-devops {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        /* Adjusting image alignment */
+        .logo img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Adding color to captions */
+        .caption {
+            color: #007bff;
+            font-size: 18px; /* Adjusting font size for captions */
+        }
+
+        /* Aligning course content side by side */
+        .course-content .col-md-6 {
+            float: left;
+            width: 50%;
+            padding: 0 15px;
+        }
+
+        @media (max-width: 767px) {
+            .course-content .col-md-6 {
+                width: 100%;
+            }
+        }
+
+        /* Styling for registration form */
+        .registration-form {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        /* Centering registration form */
+        .registration-form {
+            text-align: center;
+        }
+
+        /* Styling for icons */
+        .icon {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <!-- Adjusted heading with added colors -->
+            <h1 class="urttech-heading">URT TECHNOLOGIES</h1>
+            <p>Learn with Real Time Experts</p>
+            <p>Your gateway to success in the world of IT</p>
+            <!-- Removing the image from the header -->
+        </div>
+
+        <!-- Institute Information -->
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <p>URT Technologies is a leading institute offering comprehensive training in various
+                    technologies including DevOps. We strive to provide high-quality education and practical
+                    skills to help our students excel in their careers.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Contact Information</h2>
+                <p>
+                    <strong>Email:</strong> <a href="mailto:urttechtechnologies@gmail.com"><i class="fas fa-envelope icon"></i>urttechtechnologies@gmail.com</a>
+                    <br>
+                    <strong>Phone:</strong> <i class="fas fa-phone icon"></i>9966629961
+                    <br>
+                    <strong>YouTube:</strong> <a href="https://www.youtube.com/channel/UC34xoSAJ4iw47DlVW6Lfw3w?sub_confirmation=1"><i class="fab fa-youtube icon"></i>Subscribe to our Channel</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Course Content -->
+        <div class="course-content">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Course Content</h2>
+                    <p>Our DevOps course covers a wide range of topics including:</p>
+                    <p><a href="https://github.com/devops-surya/devops-surya/blob/main/CourseContent.pdf" download>Download Course Content PDF</a></p>
+                    <ul>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                        <li>Terraform</li>
+                        <li>LINUX</li>
+                        <li>Shell Scripting</li>
+                        <li>GIT</li>
+                        <li>Maven</li>
+                        <li>Ansible</li>
+                        <li>Jenkins</li>
+                        <li>Jfrog</li>
+                        <li>Sonarqube</li>
+                        <li>AWS</li>
+                    </ul>
+                    <p>And much more...!</p>
+                </div>
+
+                <!-- Registration Form -->
+                <div class="col-md-6">
+                    <div class="registration-form">
+                        <h2>Register</h2>
+                        <form action="register.php" method="POST">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required><br>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br>
+
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" required><br>
+
+                            <button type="submit">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Choose DevOps -->
+        <div class="why-devops">
+            <h2>Why Choose DevOps?</h2>
+            <p>DevOps is one of the most sought-after skills in the tech industry today. By mastering DevOps
+                practices, you can:</p>
+            <ul>
+                <li>Accelerate the software delivery process</li>
+                <li>Improve collaboration between development and operations teams</li>
+                <li>Automate repetitive tasks, leading to increased efficiency</li>
+                <li>Enhance system reliability and scalability</li>
+                <li>Stay competitive in today's fast-paced IT landscape</li>
+            </ul>
+            <p>Join us at URT Technologies and embark
