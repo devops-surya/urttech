@@ -39,7 +39,7 @@ This repository contains a static website built using HTML and PHP. The website 
 2. Configure Postfix for SMTP:
    - Edit the Postfix configuration file:
      ```bash
-     sudo nano /etc/postfix/main.cf
+     sudo vi  /etc/postfix/main.cf
      ```
    - Add the following lines:
      ```text
